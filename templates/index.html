@@ -1,0 +1,58 @@
+{% extends "_base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+{% load static %}
+
+<h1 class="text-black text-lg underline text-center mt-4" style="font-family: 'Prompt', sans-serif;">
+    อาหารพื้นเมืองที่มีสรรพคุณต่อสุขภาพตามวิถีภูมิปัญญาท้องถิ่นของจังหวัดอุบลราชธานี
+</h1> 
+
+<div class="mt-8 flex justify-center">
+    <div class="max-w-sm text-center">
+        <img alt="" src="{% static 'images/card-03.jpg' %}" class="h-36 w-36 rounded-full object-cover mx-auto" />
+        <div class="px-4 py-4">
+            <h3 class="text-xl mb-2 font-mitr">หมี่กะทิ</h3>
+            <p class="text-gray-700 text-base font-sarabun" style="font-family: 'Sarabun', sans-serif;">
+                หมี่กะทิ เป็นอาหารพื้นเมืองที่มีสรรพคุณต่อสุขภาพ ตามวิถีภูมิปัญญาท้องถิ่น ของจังหวัดอุบลราชธานี ที่ได้สืบทอดกันมารุ่นต่อรุ่น มีส่วนผสมจากวัตถุดิบธรรมชาติที่มีในท้องถิ่น มีความโดดเด่นและมีเอกลักษณ์เฉพาะที่มีความประณีตสวยงาม
+            </p>
+            <div class="py-4">
+                <a href="p1" class="bg-gray-500 hover:bg-blue-700 text-white py-2 px-4 font-sarabun rounded" style="font-family: 'Sarabun', sans-serif;">
+                    เรียนรู้เพิ่มเติม »
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="max-w-sm text-center">
+        <img alt="" src="{% static 'images/card-02.jpg' %}" class="h-36 w-36 rounded-full object-cover mx-auto" />
+        <div class="px-4 py-4">
+            <h3 class="text-xl mb-2 font-mitr">ปลาส้มทรงเครื่องสมุนไพร</h3>
+            <p class="text-gray-700 text-base font-sarabun" style="font-family: 'Sarabun', sans-serif;">
+                ปลาส้มทรงเครื่องสมุนไพร เป็นอาหารพื้นเมืองที่มีสรรพคุณต่อสุขภาพ ตามวิถีภูมิปัญญาท้องถิ่น ของจังหวัดอุบลราชธานี ที่ได้สืบทอดกันมารุ่นต่อรุ่น มีความโดดเด่นและมีความเป็นเอกลักษณ์ของจังหวัดอุบลราชธานี 
+            </p>
+            <div class="py-4">
+                <a href="p2" class="bg-gray-500 hover:bg-blue-700 text-white py-2 px-4 font-sarabun rounded" style="font-family: 'Sarabun', sans-serif;">
+                    เรียนรู้เพิ่มเติม »
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="max-w-sm text-center">
+        <img alt="" src="{% static 'images/card-06.jpg' %}" class="h-36 w-36 rounded-full object-cover mx-auto" />
+        <div class="px-4 py-4">
+            <h3 class="text-xl mb-2 font-mitr">ผัดไทหมื่นปีห่อใบบัว</h3>
+            <p class="text-gray-700 text-base font-sarabun" style="font-family: 'Sarabun', sans-serif;">
+                ผัดไทยเป็นอาหารพื้นเมืองที่มีสรรพคุณต่อสุขภาพ ตามวิถีภูมิปัญญาท้องถิ่น ของจังหวัดอุบลราชธานี ที่ได้สืบทอดกันมารุ่นต่อรุ่น มีความโดดเด่นและมีความเป็นเอกลักษณ์ที่มีความประณีตสวยงาม ของจังหวัดอุบลราชธานี มีความเป็นธรรมชาติของส่วนผสมหลักและเครื่องปรุงรส เป็นอาหารที่ให้คุณค่าทางโภชนาการ และมีสารอาหารครบ 5 หมู่
+            </p>
+            <div class="py-4">
+                <a href="p3" class="bg-gray-500 hover:bg-blue-700 text-white py-2 px-4 font-sarabun rounded" style="font-family: 'Sarabun', sans-serif;">
+                    เรียนรู้เพิ่มเติม »
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
